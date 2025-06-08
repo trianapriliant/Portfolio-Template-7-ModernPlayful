@@ -40,7 +40,7 @@ const Header = () => {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between ">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <motion.div
@@ -99,14 +99,13 @@ const Header = () => {
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </motion.button>
         </div>
-
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <motion.nav
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden mt-4 pb-4 border-t border-gray-100"
+            className="md:hidden mt-4 pb-4 border-t border-gray-200 bg-white "
           >
             <div className="pt-4 space-y-2">
               {navigation.map((item) => (
@@ -117,7 +116,7 @@ const Header = () => {
                   className={`block px-4 py-2 rounded-lg transition-colors ${
                     isActive(item.href)
                       ? 'bg-playful-blue/10 text-playful-blue'
-                      : 'text-gray-700 hover:bg-gray-50 hover:text-playful-blue'
+                      : 'text-gray-700 hover:bg-sky-500/10 hover:text-playful-blue'
                   }`}
                 >
                   {item.name}

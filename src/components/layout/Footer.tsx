@@ -12,11 +12,11 @@ const Footer = () => {
   ]
 
   const funMessages = [
-    "Thanks for scrolling this far 🚀",
-    "You made it to the bottom! 🎉",
-    "Hope you enjoyed the journey ✨",
-    "Scroll back up for more magic 🪄",
-    "Built with love and lots of coffee ☕",
+    "Thanks for scrolling this far",
+    "You made it to the bottom!",
+    "Hope you enjoyed the journey",
+    "Scroll back up for more magic",
+    "Built with love and lots of coffee",
   ]
 
   const randomMessage = funMessages[Math.floor(Math.random() * funMessages.length)]

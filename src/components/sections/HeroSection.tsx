@@ -206,13 +206,13 @@ const HeroSection = () => {
             ))}
           </motion.div>
         </div>
-
-        {/* Scroll Down Indicator */}
+      </div>
+      {/* Scroll Down Indicator */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2 }}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+          className="absolute bottom-20 left-1/2 transform -translate-x-1/2"
         >
           <motion.div
             animate={{ y: [0, 10, 0] }}
@@ -223,7 +223,6 @@ const HeroSection = () => {
             <ChevronDown className="w-6 h-6" />
           </motion.div>
         </motion.div>
-      </div>
     </section>
   )
 }

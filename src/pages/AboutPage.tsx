@@ -5,37 +5,37 @@ const AboutPage = () => {
   const funFacts = [
     {
       icon: Coffee,
-      front: "☕ Coffee Lover",
+      front: "Coffee Lover",
       back: "1000+ cups consumed during development",
       color: "from-amber-500 to-orange-600"
     },
     {
       icon: Code,
-      front: "💻 Lines of Code",
+      front: "Lines of Code",
       back: "10,000+ lines written with passion",
       color: "from-blue-500 to-purple-600"
     },
     {
       icon: Heart,
-      front: "❤️ User Experience",
+      front: "User Experience",
       back: "Every pixel crafted for delight",
       color: "from-pink-500 to-red-600"
     },
     {
       icon: Star,
-      front: "⭐ Late Nights",
+      front: "Late Nights",
       back: "50+ midnight coding sessions",
       color: "from-indigo-500 to-blue-600"
     },
     {
       icon: Zap,
-      front: "⚡ Performance",
+      front: "Performance",
       back: "Optimized for 60fps smoothness",
       color: "from-yellow-500 to-amber-600"
     },
     {
       icon: User,
-      front: "🎯 Focus",
+      front: "Focus",
       back: "Making web beautiful & functional",
       color: "from-green-500 to-teal-600"
     }
